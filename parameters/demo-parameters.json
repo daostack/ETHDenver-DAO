@@ -1,0 +1,81 @@
+{
+  "ContributionReward": [{}],
+  "SchemeRegistrar": [{}],
+  "StandAloneContracts": [
+    {
+      "name": "RepAllocation",
+      "fromArc": true
+    },
+    {
+      "name": "ContributionRewardExt",
+      "fromArc": true,
+      "arcVersion": "0.0.1-rc.36"
+    },
+    {
+      "name": "Competition",
+      "fromArc": true,
+      "params": [{ "StandAloneContract": 1 }],
+      "arcVersion": "0.0.1-rc.36"
+    }
+  ],
+  "VotingMachinesParams": [
+    {
+      "boostedVotePeriodLimit": 600,
+      "daoBountyConst": 10,
+      "minimumDaoBounty": 100,
+      "queuedVotePeriodLimit": 1800,
+      "queuedVoteRequiredPercentage": 50,
+      "preBoostedVotePeriodLimit": 600,
+      "proposingRepReward": 5,
+      "quietEndingPeriod": 300,
+      "thresholdConst": 2000,
+      "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+      "votersReputationLossRatio": 1,
+      "activationTime": 0
+    }
+  ],
+  "schemes": {
+    "ContributionReward": true,
+    "SchemeRegistrar": true,
+    "GlobalConstraintRegistrar": true,
+    "UpgradeScheme": true
+  },
+  "CustomSchemes": [
+    {
+      "name": "ReputationFromToken",
+      "isUniversal": false,
+      "params": [
+        { "StandAloneContract": 0 },
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "alias": "ReputationFromToken",
+      "fromArc": true,
+      "permissions": "0x00000000"
+    },
+    {
+      "name": "ContributionRewardExt",
+      "schemeName": "ContributionRewardExt",
+      "address": { "StandAloneContract": 1 },
+      "isUniversal": false,
+      "params": [
+        "GenesisProtocolAddress",
+        { "voteParams": 0 },
+        { "StandAloneContract": 2 }
+      ],
+      "permissions": "0x00000000",
+      "alias": "ContributionRewardExt",
+      "fromArc": true,
+      "arcVersion": "0.0.1-rc.36"
+    }
+  ],
+  "useUController": false,
+  "useDaoCreator": true,
+  "noTrack": false,
+  "founders": [
+    {
+      "address": "0x90f8bf6a479f320ead074411a4b0e7944ea8c9c1",
+      "tokens": 0,
+      "reputation": 0
+    }
+  ]
+}

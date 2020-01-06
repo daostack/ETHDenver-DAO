@@ -1,0 +1,22 @@
+{
+  "name": "ethdenver-dao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate_test": "daostack-migrate dao --prev-migration node_modules/@daostack/migration/migration.json --gasPrice 20 --params parameters/demo-parameters.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daostack/ETHDenver-DAO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daostack/ETHDenver-DAO/issues"
+  },
+  "homepage": "https://github.com/daostack/ETHDenver-DAO#readme",
+  "dependencies": {
+    "@daostack/migration": "0.0.1-rc.36-v4"
+  }
+}
