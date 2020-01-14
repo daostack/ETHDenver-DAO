@@ -66,6 +66,20 @@
       "alias": "ContributionRewardExt",
       "fromArc": true,
       "arcVersion": "0.0.1-rc.36"
+    },
+    {
+      "name": "AuthorizedMintRep",
+      "schemeName": "AuthorizedMintRep",
+      "isUniversal": false,
+      "params": [
+        1578987160,
+        1579073548,
+        0
+      ],
+      "permissions": "0x00000000",
+      "alias": "AuthorizedMintRep",
+      "fromArc": true,
+      "arcVersion": "0.0.1-rc.37"
     }
   ],
   "useUController": false,
