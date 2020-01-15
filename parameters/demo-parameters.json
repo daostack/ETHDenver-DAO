@@ -35,10 +35,10 @@
     }
   ],
   "schemes": {
-    "ContributionReward": true,
+    "ContributionReward": false,
     "SchemeRegistrar": true,
-    "GlobalConstraintRegistrar": true,
-    "UpgradeScheme": true
+    "GlobalConstraintRegistrar": false,
+    "UpgradeScheme": false
   },
   "CustomSchemes": [
     {
