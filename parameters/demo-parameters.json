@@ -37,8 +37,8 @@
   "schemes": {
     "ContributionReward": true,
     "SchemeRegistrar": true,
-    "GlobalConstraintRegistrar": true,
-    "UpgradeScheme": true
+    "GlobalConstraintRegistrar": false,
+    "UpgradeScheme": false
   },
   "CustomSchemes": [
     {
@@ -46,7 +46,8 @@
       "isUniversal": false,
       "params": [
         { "StandAloneContract": 0 },
-        "0x0000000000000000000000000000000000000000"
+        "0x0000000000000000000000000000000000000000",
+        "0x0000000000000000000000000000000000000001"
       ],
       "alias": "ReputationFromToken",
       "fromArc": true,
@@ -75,6 +76,14 @@
         1578987160,
         1579073548,
         0
+      ],
+      "runFunctions": [
+        { 
+           "functionName": "transferOwnership",
+           "params": [
+              "0x000000000000000000000000000000000000dead"
+           ]
+        }
       ],
       "permissions": "0x00000000",
       "alias": "AuthorizedMintRep",
