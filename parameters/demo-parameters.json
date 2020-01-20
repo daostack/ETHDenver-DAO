@@ -20,14 +20,14 @@
   ],
   "VotingMachinesParams": [
     {
-      "boostedVotePeriodLimit": 600,
+      "boostedVotePeriodLimit": 300,
       "daoBountyConst": 10,
       "minimumDaoBounty": 100,
-      "queuedVotePeriodLimit": 1800,
+      "queuedVotePeriodLimit": 1200,
       "queuedVoteRequiredPercentage": 50,
-      "preBoostedVotePeriodLimit": 600,
+      "preBoostedVotePeriodLimit": 300,
       "proposingRepReward": 5,
-      "quietEndingPeriod": 300,
+      "quietEndingPeriod": 150,
       "thresholdConst": 2000,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
       "votersReputationLossRatio": 1,

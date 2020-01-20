@@ -1,0 +1,81 @@
+ℹ 0x3a84d92fb21e017d4ea9a07b1fc7d20f81a9689a6675022ccf9fcf1bab404b5b | 0.11553 ETH | Created new organization.
+ℹ 0xbf64b0e4587762aad5f77de741de08492203961a8aa5063b40278759021ddec9 | 0.00497 ETH | GenesisProtocol parameters set. | Params Hash: 0xf5f91b768788be76df87a6bf732cefdaafab5155d5ef1babc5d397740f314698
+Parameters:
+50,
+1200,
+300,
+300,
+2000,
+150,
+5000000000000000000,
+1,
+100000000000000000000,
+10,
+0,
+0x0000000000000000000000000000000000000000
+ℹ 0x3ed374997827bfb336601a2c13e638a4abe5d15886a50000bf2e5a2354ba2ebf | 0.00168 ETH | Scheme Registrar parameters set. | Params Hash: 0x12d6282f0bb57986bab090c4db4b002aa4a2e959406cc2e48368e92448c628e5
+Parameters:
+0xf5f91b768788be76df87a6bf732cefdaafab5155d5ef1babc5d397740f314698,
+0xf5f91b768788be76df87a6bf732cefdaafab5155d5ef1babc5d397740f314698,
+0x48687732d1758580Bc84f9aD311789ce552F4320
+ℹ 0x736e376f210b8a9fc66734c7a479edc8430441fe352a973cb7e5fd6559a8b425 | 0.00127 ETH | Contribution Reward parameters set. | Params Hash: 0x1f6bc6cf8dfcbe74dc320434859a890ceaeb2d3fce15ab0dde34bec893cd61ac
+Parameters:0xf5f91b768788be76df87a6bf732cefdaafab5155d5ef1babc5d397740f314698,
+0x48687732d1758580Bc84f9aD311789ce552F4320
+ℹ 0x2dd47e7fb1e0b4c45dfcd7220e350bce420c632da7c47e624f7cb5ffc04dee70 | 0.00959 ETH | 0xC5FdEa6f00EFede059Ce0E7e9E532CFa57eb09AE => RepAllocation
+ℹ 0x98d895b04092ac94782bdbf81eaf2f5e86a46483a4f0267e40f00795be6d216d | 0.05103 ETH | 0x9Bc80C84d4cF7043ccfbb2f63DBF2D2947d929dE => ContributionRewardExt
+ℹ 0xe5c8c66ff6d071f1b283ca0271d4daa02f6b89399ff957b53c334893287d41de | 0.03857 ETH | 0x7289E0E346f7EE5079eacf07a4a280d3Ac7D700F => Competition
+ℹ 0x7af283093c702d6d63a0c9809bb9dd74cdd661c0c827fc4181fbeddcbdbd441d | 0.00087 ETH | Competition initialized.
+ℹ 0x6812c94eca0ce8ed9f53f413341fda3996628e4dcb48bff7f80047acb2db62b4 | 0.01432 ETH | 0x93C5aDDFfA302Db5Df533FC80E3B96aC113cb0f2 => ReputationFromToken
+ℹ 0xaa5d5b5f9808afc308e5605a4813a576d45b110d9d37dd1bf306a491fd807d5d | 0.00175 ETH | ReputationFromToken initialized.
+ℹ 0x7522023f7c835b4e04e93c5163b3b9a9df7a85eeb1a615147f01f151802eaeaa | 0.00213 ETH | ContributionRewardExt initialized.
+ℹ 0x1fd90ca6224d999d32274671745d3f46d01fc28952dd1cc71d2716dea59bf212 | 0.01156 ETH | 0x1bD3604244103B294B5dbDac8175620840E5ed41 => AuthorizedMintRep
+ℹ 0x7d3f65941ba72759cf368a33d5cdd336536cb0eaba95c471c0662cf2891559a5 | 0.00175 ETH | AuthorizedMintRep initialized.
+ℹ 0x574ab39678e9e6ae5a90ab542df45941b528265333feb28f809b0a33643c15f7 | 0.00061 ETH | AuthorizedMintRep called function transferOwnership.
+ℹ 0xd2f2065b0bca8191f1072b1ee721c6fb442502839b8bbc5235c0a5d02e5e7ec8 | 0.00476 ETH | DAO schemes set.
+{
+  "name": "Precipitate Ukulele",
+  "Avatar": "0x2a5062f48C9e105DD139191a34fE4336f6477E59",
+  "DAOToken": "0x0D519B5A221B5a0D8E66bf7A19b8aA33953Ad3A9",
+  "Reputation": "0x0aBF66126E37AEA4F0885b0e681e9F1C526d2B69",
+  "Controller": "0x46faC47229d526e286EcEfEA262800073CA12692",
+  "Schemes": [
+    {
+      "name": "ReputationFromToken",
+      "alias": "ReputationFromToken",
+      "address": "0x93C5aDDFfA302Db5Df533FC80E3B96aC113cb0f2",
+      "arcVersion": "0.0.1-rc.37"
+    },
+    {
+      "name": "ContributionRewardExt",
+      "alias": "ContributionRewardExt",
+      "address": "0x9Bc80C84d4cF7043ccfbb2f63DBF2D2947d929dE",
+      "arcVersion": "0.0.1-rc.36"
+    },
+    {
+      "name": "AuthorizedMintRep",
+      "alias": "AuthorizedMintRep",
+      "address": "0x1bD3604244103B294B5dbDac8175620840E5ed41",
+      "arcVersion": "0.0.1-rc.37"
+    }
+  ],
+  "StandAloneContracts": [
+    {
+      "name": "RepAllocation",
+      "address": "0xC5FdEa6f00EFede059Ce0E7e9E532CFa57eb09AE",
+      "arcVersion": "0.0.1-rc.37"
+    },
+    {
+      "name": "ContributionRewardExt",
+      "address": "0x9Bc80C84d4cF7043ccfbb2f63DBF2D2947d929dE",
+      "arcVersion": "0.0.1-rc.36"
+    },
+    {
+      "name": "Competition",
+      "address": "0x7289E0E346f7EE5079eacf07a4a280d3Ac7D700F",
+      "arcVersion": "0.0.1-rc.36"
+    }
+  ],
+  "arcVersion": "0.0.1-rc.37"
+}
+✔ DAO Migration has Finished Successfully!
+ℹ Finished in 4 minutes and costed 0.26039367999999795ETH
