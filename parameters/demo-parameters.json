@@ -4,7 +4,15 @@
   "StandAloneContracts": [
     {
       "name": "RepAllocation",
-      "fromArc": true
+      "fromArc": true,
+      "runFunctions": [
+        { 
+           "functionName": "transferOwnership",
+           "params": [
+              "0x059FfFf653f8F32a919d1A57b4c82533D0f04716"
+           ]
+        }
+      ]
     },
     {
       "name": "ContributionRewardExt",
@@ -73,15 +81,15 @@
       "schemeName": "AuthorizedMintRep",
       "isUniversal": false,
       "params": [
-        1578987160,
-        1579073548,
-        0
+        1579528800,
+        1579536000,
+        20000
       ],
       "runFunctions": [
         { 
            "functionName": "transferOwnership",
            "params": [
-              "0x000000000000000000000000000000000000dead"
+              "0x059FfFf653f8F32a919d1A57b4c82533D0f04716"
            ]
         }
       ],
