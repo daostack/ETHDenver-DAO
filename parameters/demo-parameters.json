@@ -1,7 +1,7 @@
 {
-   "orgName":"ETHDenver DAO",
-   "tokenName":"ETHDenver Token",
-   "tokenSymbol":"EDT",
+   "orgName":"BuffiDAO",
+   "tokenName":"BuffiDAI",
+   "tokenSymbol":"BDAI",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{}],
   "StandAloneContracts": [
