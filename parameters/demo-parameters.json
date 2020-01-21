@@ -1,4 +1,7 @@
 {
+   "orgName":"ETHDenver DAO",
+   "tokenName":"ETHDenver Token",
+   "tokenSymbol":"EDT",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{}],
   "StandAloneContracts": [
