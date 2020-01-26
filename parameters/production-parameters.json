@@ -1,19 +1,14 @@
 {
-  "orgName": "BuffiDAO",
-  "tokenName": "BuffiDAI",
-  "tokenSymbol": "BDAI",
+  "orgName": "BountyDAO",
+  "tokenName": "BountyDAO Token",
+  "tokenSymbol": "BDT",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{}],
   "StandAloneContracts": [
     {
-      "name": "RepAllocation",
+      "name": "PolkaCurve",
       "fromArc": true,
-      "runFunctions": [
-        {
-          "functionName": "transferOwnership",
-          "params": ["0x059FfFf653f8F32a919d1A57b4c82533D0f04716"]
-        }
-      ]
+      "arcVersion": "0.0.1-rc.39"
     },
     {
       "name": "ContributionRewardExt",
@@ -29,17 +24,31 @@
   ],
   "VotingMachinesParams": [
     {
-      "boostedVotePeriodLimit": 300,
+      "boostedVotePeriodLimit": 43200,
       "daoBountyConst": 10,
-      "minimumDaoBounty": 100,
-      "queuedVotePeriodLimit": 1200,
+      "minimumDaoBounty": 150,
+      "queuedVotePeriodLimit": 604800,
       "queuedVoteRequiredPercentage": 50,
-      "preBoostedVotePeriodLimit": 300,
-      "proposingRepReward": 5,
-      "quietEndingPeriod": 150,
-      "thresholdConst": 2000,
+      "preBoostedVotePeriodLimit": 43200,
+      "proposingRepReward": 250,
+      "quietEndingPeriod": 3600,
+      "thresholdConst": 1200,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
-      "votersReputationLossRatio": 1,
+      "votersReputationLossRatio": 4,
+      "activationTime": 1580212800
+    },
+    {
+      "boostedVotePeriodLimit": 28800,
+      "daoBountyConst": 10,
+      "minimumDaoBounty": 150,
+      "queuedVotePeriodLimit": 604800,
+      "queuedVoteRequiredPercentage": 50,
+      "preBoostedVotePeriodLimit": 28800,
+      "proposingRepReward": 250,
+      "quietEndingPeriod": 3600,
+      "thresholdConst": 1200,
+      "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+      "votersReputationLossRatio": 4,
       "activationTime": 0
     }
   ],
@@ -54,8 +63,8 @@
       "name": "ReputationFromToken",
       "isUniversal": false,
       "params": [
+        "0x30412F4c06343d65C06B5a0Bba6821cf37E605fa",
         { "StandAloneContract": 0 },
-        "0x0000000000000000000000000000000000000000",
         "0x0000000000000000000000000000000000000001"
       ],
       "alias": "ReputationFromToken",
@@ -69,27 +78,11 @@
       "isUniversal": false,
       "params": [
         "GenesisProtocolAddress",
-        { "voteParams": 0 },
+        { "voteParams": 1 },
         { "StandAloneContract": 2 }
       ],
       "permissions": "0x00000000",
       "alias": "ContributionRewardExt",
-      "fromArc": true,
-      "arcVersion": "0.0.1-rc.39"
-    },
-    {
-      "name": "ReputationAdmin",
-      "schemeName": "ReputationAdmin",
-      "isUniversal": false,
-      "params": [1579528800, 1579536000, 20000],
-      "runFunctions": [
-        {
-          "functionName": "transferOwnership",
-          "params": ["0x059FfFf653f8F32a919d1A57b4c82533D0f04716"]
-        }
-      ],
-      "permissions": "0x00000000",
-      "alias": "ReputationAdmin",
       "fromArc": true,
       "arcVersion": "0.0.1-rc.39"
     }
