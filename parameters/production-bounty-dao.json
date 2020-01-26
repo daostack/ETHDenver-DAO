@@ -65,7 +65,7 @@
       "params": [
         "0x30412F4c06343d65C06B5a0Bba6821cf37E605fa",
         { "StandAloneContract": 0 },
-        "0x0000000000000000000000000000000000000001"
+        "0x0000000000000000000000000000000000000000"
       ],
       "alias": "ReputationFromToken",
       "fromArc": true,
