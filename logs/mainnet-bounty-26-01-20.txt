@@ -1,86 +1,44 @@
-ℹ 0x68d31965c67cc09129da7374aa4476f0dddea314a57d5ed91a4d6773159901dc | 0.11553 ETH | Created new organization.
-ℹ 0xb7c20bba3d03a60924278e7c9d19aa72670d0e770f87840912bf8ce7ad062f4a | 0.00535 ETH | GenesisProtocol parameters set. | Params Hash: 0xa4ec72a2dc7d2abbac1d7539330ee9d10d96e8ac5ab2a0d3862ac2131db092e4
-Parameters:
-50,
-604800,
-43200,
-43200,
-1200,
-3600,
-5000000000000000000,
-4,
-150000000000000000000,
-10,
-1580212800,
-0x0000000000000000000000000000000000000000
-ℹ 0x65f437e7db9e5146b3f9a58caedcfba2c8d5f1816caba0bda7882e0543b96a80 | 0.00497 ETH | GenesisProtocol parameters set. | Params Hash: 0x76315aeeb45bf480b5ca34f11cc4fb6c9e52ccb66127f5ece92d5918b74789ec
-Parameters:
-50,
-604800,
-28800,
-28800,
-1200,
-3600,
-5000000000000000000,
-4,
-150000000000000000000,
-10,
-0,
-0x0000000000000000000000000000000000000000
-ℹ 0x3c901fb2ba633120eb48018088f3a4f49204c532ab5ce44d09117d2a61c71e50 | 0.00168 ETH | Scheme Registrar parameters set. | Params Hash: 0x56fe5fe9d24b895d984e4eb9c86ae9b2620f4851569cd553f0566e92b529af61
-Parameters:
-0xa4ec72a2dc7d2abbac1d7539330ee9d10d96e8ac5ab2a0d3862ac2131db092e4,
-0xa4ec72a2dc7d2abbac1d7539330ee9d10d96e8ac5ab2a0d3862ac2131db092e4,
-0x1C18bAd5a3ee4e96611275B13a8ed062B4a13055
-ℹ 0x3e8c10e9534b17f4fba4dcab31057dbf452e1bbd431e89aa3e3992f7f01b230e | 0.00127 ETH | Contribution Reward parameters set. | Params Hash: 0x08d354ab4650c53a4296b51c0f29ca1772b9b2649b52a0b3a958df6cb3b7f503
-Parameters:0xa4ec72a2dc7d2abbac1d7539330ee9d10d96e8ac5ab2a0d3862ac2131db092e4,
-0x1C18bAd5a3ee4e96611275B13a8ed062B4a13055
-ℹ 0x9fd8213ddb5ad3b314f93cc5c40347e795d293e04d318d2dd78f7dae711bef9e | 0.00223 ETH | 0xaF01465EA727cA4f5B43F416ba2a3b41D9d5dDE3 => PolkaCurve
-ℹ 0x94c202da5ac69381b56a821ab0533b471260524c747d8c6658ef235eba9444d6 | 0.05103 ETH | 0xA8D80e21d445dA4FEd6B0a9b56eb2cC28E7a5242 => ContributionRewardExt
-ℹ 0x0c02c8f87b297bc7c76f7b52b674f2408c86a8675e64d3bcd34b53187bea4e2c | 0.03924 ETH | 0x4083fF38d9fe2222d7DA4D7c107a1312D96C8734 => Competition
-ℹ 0xbbe0689e85494375568eb33447526f5ff3cf06f9b0604c4da9424ae6b6579c20 | 0.00087 ETH | Competition initialized.
-ℹ 0x7455371dc71797089bfa4c9bb67ada9cb4cc01fa9d1ee4d739e40e6afef37a7f | 0.01432 ETH | 0xc985A00b181ee283654077f438466B205d58360c => ReputationFromToken
-ℹ 0xe5ccc70004dc8b39c4585c5b9c97d4ef52e183539e51baa5f9c7c920f842f00c | 0.00175 ETH | ReputationFromToken initialized.
-ℹ 0x0eca7a0828006343ab262941e819260fa34f5fd949877db46285cf9ba5e36279 | 0.00213 ETH | ContributionRewardExt initialized.
-ℹ 0x7302b7e6dc23de6086660349682ebff27c032fae019e81b312802f932311eb69 | 0.00409 ETH | DAO schemes set.
+ℹ 0x5bfe60a2e29dcd5c9064309e10bec00b841f6a4f6d81a595a65f8374517c5155 | 0.11553 ETH | Created new organization.
+ℹ 0x184095c2957b77d7ea3330a87611345d94f72e9554c3b994d122cf80b3da693b | 0.05103 ETH | 0x8ED496F34DE646C79Ba99f121f0e2c5DCc6eC13a => ContributionRewardExt
+ℹ 0x6720fe80b746aa5a1ea1dcad4987e2ffc7b3a4e59162b472e497346610bb004f | 0.03924 ETH | 0xa22f18b02Aea4319EBeE2217aEb88DEf4862b9ED => Competition
+ℹ 0x57658097bb84301672897c6da19d987e0a514d6f6b6f72c1619dacbbec36efcb | 0.00087 ETH | Competition initialized.
+ℹ 0x231f64b11dd3b54e89f88729ab45db710e46c7f0f407ba981735172852b76969 | 0.01432 ETH | 0x4E7A91332ABeef0f20DeB2d0E75544848C273a50 => ReputationFromToken
+ℹ 0x019845e02be323b8eb39e7377c46c6cfdccb7044a2e9afbeddbc101a9b653f05 | 0.00175 ETH | ReputationFromToken initialized.
+ℹ 0x79cad7b1883a5f952e11b1b4d8555a90559d5ae12e8b6c1dd396dbe72b9a8a53 | 0.00213 ETH | ContributionRewardExt initialized.
+ℹ 0x0c110f8958743210e6dccdca53378eabd72f6394fe2c6200cc0e20fcebbfd48f | 0.00409 ETH | DAO schemes set.
 {
   "name": "BountyDAO",
-  "Avatar": "0x923D733fD72ba51D5673fA7c63486fa190Ac92c5",
-  "DAOToken": "0xbdC915a59210d41fF3d2B05E3D2E9DE25a3aFeA7",
-  "Reputation": "0x4F4BBC5e7C1c23B056Ccb49Bc9217602dc28B681",
-  "Controller": "0x0F2eD7b1fA6e6734D4e321b0Dc9e1453A871c0f6",
+  "Avatar": "0x00Ea828bf150ec08cad91eE93841785C827B78F4",
+  "DAOToken": "0x41e52e9f7991513F1E0E18Aa125191ce62172e5A",
+  "Reputation": "0xC5c1D68A7d6F2b8c290764d7A0B3ba4110B75e8c",
+  "Controller": "0x99Aa3ABCa850b8c2AbBBe766B57bb9455b0d5961",
   "Schemes": [
     {
       "name": "ReputationFromToken",
       "alias": "ReputationFromToken",
-      "address": "0xc985A00b181ee283654077f438466B205d58360c",
+      "address": "0x4E7A91332ABeef0f20DeB2d0E75544848C273a50",
       "arcVersion": "0.0.1-rc.39"
     },
     {
       "name": "ContributionRewardExt",
       "alias": "ContributionRewardExt",
-      "address": "0xA8D80e21d445dA4FEd6B0a9b56eb2cC28E7a5242",
+      "address": "0x8ED496F34DE646C79Ba99f121f0e2c5DCc6eC13a",
       "arcVersion": "0.0.1-rc.39"
     }
   ],
   "StandAloneContracts": [
     {
-      "name": "PolkaCurve",
-      "address": "0xaF01465EA727cA4f5B43F416ba2a3b41D9d5dDE3",
-      "arcVersion": "0.0.1-rc.39"
-    },
-    {
       "name": "ContributionRewardExt",
-      "address": "0xA8D80e21d445dA4FEd6B0a9b56eb2cC28E7a5242",
+      "address": "0x8ED496F34DE646C79Ba99f121f0e2c5DCc6eC13a",
       "arcVersion": "0.0.1-rc.39"
     },
     {
       "name": "Competition",
-      "address": "0x4083fF38d9fe2222d7DA4D7c107a1312D96C8734",
+      "address": "0xa22f18b02Aea4319EBeE2217aEb88DEf4862b9ED",
       "arcVersion": "0.0.1-rc.39"
     }
   ],
   "arcVersion": "0.0.1-rc.39"
 }
 ✔ DAO Migration has Finished Successfully!
-ℹ Finished in 6 minutes and costed 0.24446082000000006ETH
+ℹ Finished in 7 minutes and costed 0.22895267999999997ETH
