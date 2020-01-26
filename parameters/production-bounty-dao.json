@@ -6,11 +6,6 @@
   "SchemeRegistrar": [{}],
   "StandAloneContracts": [
     {
-      "name": "PolkaCurve",
-      "fromArc": true,
-      "arcVersion": "0.0.1-rc.39"
-    },
-    {
       "name": "ContributionRewardExt",
       "fromArc": true,
       "arcVersion": "0.0.1-rc.39"
