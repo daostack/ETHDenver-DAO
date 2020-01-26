@@ -30,7 +30,7 @@
       "queuedVotePeriodLimit": 604800,
       "queuedVoteRequiredPercentage": 50,
       "preBoostedVotePeriodLimit": 43200,
-      "proposingRepReward": 250,
+      "proposingRepReward": 5,
       "quietEndingPeriod": 3600,
       "thresholdConst": 1200,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
@@ -44,7 +44,7 @@
       "queuedVotePeriodLimit": 604800,
       "queuedVoteRequiredPercentage": 50,
       "preBoostedVotePeriodLimit": 28800,
-      "proposingRepReward": 250,
+      "proposingRepReward": 5,
       "quietEndingPeriod": 3600,
       "thresholdConst": 1200,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
@@ -63,7 +63,7 @@
       "name": "ReputationFromToken",
       "isUniversal": false,
       "params": [
-        "0x30412F4c06343d65C06B5a0Bba6821cf37E605fa",
+        "0x2b0626847F6821994c13AD5ad3D7515019923436",
         { "StandAloneContract": 0 },
         "0x0000000000000000000000000000000000000000"
       ],
