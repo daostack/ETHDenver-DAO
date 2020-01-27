@@ -1,0 +1,44 @@
+ℹ 0x5bfe60a2e29dcd5c9064309e10bec00b841f6a4f6d81a595a65f8374517c5155 | 0.11553 ETH | Created new organization.
+ℹ 0x184095c2957b77d7ea3330a87611345d94f72e9554c3b994d122cf80b3da693b | 0.05103 ETH | 0x8ED496F34DE646C79Ba99f121f0e2c5DCc6eC13a => ContributionRewardExt
+ℹ 0x6720fe80b746aa5a1ea1dcad4987e2ffc7b3a4e59162b472e497346610bb004f | 0.03924 ETH | 0xa22f18b02Aea4319EBeE2217aEb88DEf4862b9ED => Competition
+ℹ 0x57658097bb84301672897c6da19d987e0a514d6f6b6f72c1619dacbbec36efcb | 0.00087 ETH | Competition initialized.
+ℹ 0x231f64b11dd3b54e89f88729ab45db710e46c7f0f407ba981735172852b76969 | 0.01432 ETH | 0x4E7A91332ABeef0f20DeB2d0E75544848C273a50 => ReputationFromToken
+ℹ 0x019845e02be323b8eb39e7377c46c6cfdccb7044a2e9afbeddbc101a9b653f05 | 0.00175 ETH | ReputationFromToken initialized.
+ℹ 0x79cad7b1883a5f952e11b1b4d8555a90559d5ae12e8b6c1dd396dbe72b9a8a53 | 0.00213 ETH | ContributionRewardExt initialized.
+ℹ 0x0c110f8958743210e6dccdca53378eabd72f6394fe2c6200cc0e20fcebbfd48f | 0.00409 ETH | DAO schemes set.
+{
+  "name": "BountyDAO",
+  "Avatar": "0x00Ea828bf150ec08cad91eE93841785C827B78F4",
+  "DAOToken": "0x41e52e9f7991513F1E0E18Aa125191ce62172e5A",
+  "Reputation": "0xC5c1D68A7d6F2b8c290764d7A0B3ba4110B75e8c",
+  "Controller": "0x99Aa3ABCa850b8c2AbBBe766B57bb9455b0d5961",
+  "Schemes": [
+    {
+      "name": "ReputationFromToken",
+      "alias": "ReputationFromToken",
+      "address": "0x4E7A91332ABeef0f20DeB2d0E75544848C273a50",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "ContributionRewardExt",
+      "alias": "ContributionRewardExt",
+      "address": "0x8ED496F34DE646C79Ba99f121f0e2c5DCc6eC13a",
+      "arcVersion": "0.0.1-rc.39"
+    }
+  ],
+  "StandAloneContracts": [
+    {
+      "name": "ContributionRewardExt",
+      "address": "0x8ED496F34DE646C79Ba99f121f0e2c5DCc6eC13a",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "Competition",
+      "address": "0xa22f18b02Aea4319EBeE2217aEb88DEf4862b9ED",
+      "arcVersion": "0.0.1-rc.39"
+    }
+  ],
+  "arcVersion": "0.0.1-rc.39"
+}
+✔ DAO Migration has Finished Successfully!
+ℹ Finished in 7 minutes and costed 0.22895267999999997ETH
