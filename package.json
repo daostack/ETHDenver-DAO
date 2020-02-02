@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "migrate_prod": "daostack-migrate dao --prev-migration node_modules/@daostack/migration/migration.json --gasPrice 20 --params parameters/production-dao.json",
     "migrate_bounty": "daostack-migrate dao --prev-migration node_modules/@daostack/migration/migration.json --gasPrice 20 --params parameters/production-bounty-dao.json",
     "migrate_test": "daostack-migrate dao --prev-migration node_modules/@daostack/migration/migration.json --gasPrice 20 --params parameters/demo-parameters.json"
   },
@@ -11,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/daostack/ETHDenver-DAO.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "daostack.io",
+  "license": "GPL-3",
   "bugs": {
     "url": "https://github.com/daostack/ETHDenver-DAO/issues"
   },
