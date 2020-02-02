@@ -1,0 +1,96 @@
+ℹ 0xb0716a6a889b6d4e1668dee96e0023eba81006f60ebea3225723aa9b26e2f0a3 | 0.11553 ETH | Created new organization.
+ℹ 0x6382305d257618b7f51077cc2d3a78e7bbc4fca5f4f3b7c70773ebb0c3a400d1 | 0.00497 ETH | GenesisProtocol parameters set. | Params Hash: 0x046a59aef76df552871914663f91801dc12361f373a64dc4e9b4baa5f872609f
+Parameters:
+50,
+604800,
+86400,
+86400,
+2000,
+57600,
+50000000000000000000,
+1,
+150000000000000000000,
+10,
+0,
+0x0000000000000000000000000000000000000000
+ℹ 0x9e82412c8e2081bbb3c8664a1f840174290332ff4daf89671a52bbe4a3baeff2 | 0.00497 ETH | GenesisProtocol parameters set. | Params Hash: 0x1601bdcfc62178bf37829961a055b96f306d925b0cf7087e5b33e09eead60385
+Parameters:
+50,
+1209600,
+345600,
+345600,
+2000,
+172800,
+100000000000000000000,
+4,
+400000000000000000000,
+10,
+0,
+0x0000000000000000000000000000000000000000
+ℹ 0x5c7ad1224e7512a433cd4d92e21f647de925412bbb2e02d943c4d5261aaced89 | 0.00168 ETH | Scheme Registrar parameters set. | Params Hash: 0x3bc1499ca686eeadaeebb84acb568c4de63bf5e10dd276ed48cfce133a2a472b
+Parameters:
+0x1601bdcfc62178bf37829961a055b96f306d925b0cf7087e5b33e09eead60385,
+0x1601bdcfc62178bf37829961a055b96f306d925b0cf7087e5b33e09eead60385,
+0x12a58e999469cEF7a18e4060fAEf1a922089BE1c
+ℹ 0xe5a97318b1577f280db5c859adc163b5775fc97cd802e0cb3c4597701ec8cea1 | 0.00127 ETH | Contribution Reward parameters set. | Params Hash: 0x8c04cecf02ed2a159b97d4868ac7affb1026653972dc3f8cd3db1374d477f0d5
+Parameters:0x046a59aef76df552871914663f91801dc12361f373a64dc4e9b4baa5f872609f,
+0x12a58e999469cEF7a18e4060fAEf1a922089BE1c
+ℹ 0x4c02d46bb1014feae07d2c9d4dfb22a03ed71ef762d4fb923217eacc93e255c3 | 0.05103 ETH | 0xF6C8A7E28acDE3C81A0F0a36F0d7018F13B60FC0 => ContributionRewardExt
+ℹ 0x2ad067ddc6e07ecef5f741f0f1171f3639c8d780c5fc1e0c4899394494808d05 | 0.03924 ETH | 0xC8FcD649c5872fd08A39274dF953254fBafDa9fC => Competition
+ℹ 0x7db76730e50e33c71300ecb6c6f644cc368a66c1bf927bdab1134b366642f4f9 | 0.00087 ETH | Competition initialized.
+ℹ 0x866eb0f13b6df013246c1067f0e785aaaf8e8cd9cb5b3ae22445121f3a25c31e | 0.00959 ETH | 0x35FEd85A6D2547804b5FeEa381A4dECF55a1527b => RepAllocation
+ℹ 0x2dd50941f2a942aa21c4942500cce45c45acd1c0542e0c824313448f81e53c53 | 0.00062 ETH | RepAllocation called function transferOwnership.
+ℹ 0xcdd8eeb5dc8b41775e87cacdd8e57bd2b6df14e168fcbbb7f6ce86c0c597ea61 | 0.01432 ETH | 0xD4a6d1c12a736643A95532B54e3D011168201FF2 => ReputationFromToken
+ℹ 0xa7dfe79e67e0f84871ae91c730807bbaa08800eb579600ff1d147369c54cb63c | 0.00136 ETH | ReputationFromToken initialized.
+ℹ 0x0a851e7da32244025cba3a48322d05b5a9ef0c4e0a5f5d8c43664e4a3d69c6d0 | 0.00213 ETH | ContributionRewardExt initialized.
+ℹ 0x80147493bad1bf3ec977c35377d3f21495404dc0addf7650fc3a0d93445f237b | 0.01776 ETH | 0xE1879b7767bED4a798B94D25c70BAD28989E7659 => ReputationAdmin
+ℹ 0x6bdc1a04079bf1ee192c4018adf1bbec2c1b57811b71d8a5c984d32656801fab | 0.00135 ETH | ReputationAdmin initialized.
+ℹ 0x9b484779eab811b6f7f5a80a736d24b9556da4f0c583c1c37474aec2d874899d | 0.00062 ETH | ReputationAdmin called function transferOwnership.
+ℹ 0x4fa8421a2f6384974324143d488044201fe067937751fa248fa720490d3c6470 | 0.00476 ETH | DAO schemes set.
+{
+  "name": "BuffiDAO",
+  "Avatar": "0x95BF39CfBC8aa2dAB5c6eC436985406Bfc5B3513",
+  "DAOToken": "0x06C5Aa441D33C39c28749223AdA0E7d91bD84210",
+  "Reputation": "0x5cA68590066d22523050f1fa3BDFA815d2d556E5",
+  "Controller": "0x8097459fa512c3f6E8Aac75D048320B61d19F670",
+  "Schemes": [
+    {
+      "name": "ReputationFromToken",
+      "alias": "ReputationFromToken",
+      "address": "0xD4a6d1c12a736643A95532B54e3D011168201FF2",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "ContributionRewardExt",
+      "alias": "ContributionRewardExt",
+      "address": "0xF6C8A7E28acDE3C81A0F0a36F0d7018F13B60FC0",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "ReputationAdmin",
+      "alias": "ReputationAdmin",
+      "address": "0xE1879b7767bED4a798B94D25c70BAD28989E7659",
+      "arcVersion": "0.0.1-rc.39"
+    }
+  ],
+  "StandAloneContracts": [
+    {
+      "name": "ContributionRewardExt",
+      "address": "0xF6C8A7E28acDE3C81A0F0a36F0d7018F13B60FC0",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "Competition",
+      "address": "0xC8FcD649c5872fd08A39274dF953254fBafDa9fC",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "RepAllocation",
+      "address": "0x35FEd85A6D2547804b5FeEa381A4dECF55a1527b",
+      "arcVersion": "0.0.1-rc.39"
+    }
+  ],
+  "arcVersion": "0.0.1-rc.39"
+}
+✔ DAO Migration has Finished Successfully!
+ℹ Finished in 2 minutes and costed 0.27206272ETH
