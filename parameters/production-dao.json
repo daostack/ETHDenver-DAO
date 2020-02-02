@@ -78,9 +78,7 @@
   ],
   "schemes": {
     "ContributionReward": true,
-    "SchemeRegistrar": true,
-    "GlobalConstraintRegistrar": false,
-    "UpgradeScheme": false
+    "SchemeRegistrar": true
   },
   "CustomSchemes": [
     {
@@ -129,9 +127,7 @@
       "arcVersion": "0.0.1-rc.39"
     }
   ],
-  "useUController": false,
   "useDaoCreator": true,
-  "noTrack": false,
   "founders": [
     {
       "address": "0x90f8bf6a479f320ead074411a4b0e7944ea8c9c1",
