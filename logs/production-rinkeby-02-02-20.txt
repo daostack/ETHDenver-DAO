@@ -1,0 +1,60 @@
+ℹ 0xd9a111bfdf1a03ee6d480568cc671174d2f6de03b3e6702f8c33194fb692ecd8 | 0.11553 ETH | Created new organization.
+ℹ 0x2a4589b4e317fb7f1b6a4755b3b19b5682a0ebd5cb3171aeb2ef9551b4674534 | 0.05103 ETH | 0x308Ba661BdB8444a1718FB8B0Cf4eFe4e7bBAf64 => ContributionRewardExt
+ℹ 0xb4427cf21474c5d13cc70cfd1b8f9255cd9cc3ee1e029ddb956afc4bff17a6f5 | 0.03924 ETH | 0xe4DF017D1Ee7845D45991e55f040A0619188137a => Competition
+ℹ 0x9c0cc28cfb5e9702f00d4136b63fd63e82dd5aa5f2e55a262a0d224368095309 | 0.00087 ETH | Competition initialized.
+ℹ 0xe51780fc1e3a9d53bcca73a412ee8fb906de437db6dadd32529366d12fc07902 | 0.00959 ETH | 0x4126c936C227Cb10e455be7859A516e1741D27b7 => RepAllocation
+ℹ 0xbfad11b8f5158a46e1755819d977efecdeaea94cead6774968f077273d94d357 | 0.00062 ETH | RepAllocation called function transferOwnership.
+ℹ 0x03c351ff8527d8a4562d3c5af696349bc377a1754c182ba87100cf2caa7e9e9d | 0.01432 ETH | 0x38Bdbcd795B44d937522Ab9E3c25Fc219C2C3e0C => ReputationFromToken
+ℹ 0xc7e7a046fd3655549bfa26c585f34787ddc504c1d0d812799bbd006572029eaa | 0.00136 ETH | ReputationFromToken initialized.
+ℹ 0xa84db060e0e12e819e1940ae3a001286c871d429706f9f6d24daf2501b53d677 | 0.00213 ETH | ContributionRewardExt initialized.
+ℹ 0x6f4ca2c02402ca2aca9667266eb54eaf02016be0874518b47b51666aee396545 | 0.01776 ETH | 0x28d7ECC5a3488DE05a82Ea7DC1CB68f07B81D6f3 => ReputationAdmin
+ℹ 0xc50cef3870639f52a6065d17b7369b98508ac972948f28561717266e4becc269 | 0.00135 ETH | ReputationAdmin initialized.
+ℹ 0xae0d8d95653bd8a915c0c1fbce49badcc13a7807ef9fa3f3096706819d0e00a3 | 0.00062 ETH | ReputationAdmin called function transferOwnership.
+ℹ 0xb685635d8a75e831f122776fbb3f7db224a00e01d34204327d042ee477056f72 | 0.00476 ETH | DAO schemes set.
+{
+  "name": "BuffiDAO",
+  "Avatar": "0x123F3722CF8cfCeCC6EE833b08E895516EB36F31",
+  "DAOToken": "0x88888caB4C195aAD4E4df7983896C498fFFc2c85",
+  "Reputation": "0x9C1Fd939A7574Ea83Fe9BAEd9f9DAB1Ea433B2ce",
+  "Controller": "0x94d14eCB70c80E4c64C2Ec8dB569C5C543829CD0",
+  "Schemes": [
+    {
+      "name": "ReputationFromToken",
+      "alias": "ReputationFromToken",
+      "address": "0x38Bdbcd795B44d937522Ab9E3c25Fc219C2C3e0C",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "ContributionRewardExt",
+      "alias": "ContributionRewardExt",
+      "address": "0x308Ba661BdB8444a1718FB8B0Cf4eFe4e7bBAf64",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "ReputationAdmin",
+      "alias": "ReputationAdmin",
+      "address": "0x28d7ECC5a3488DE05a82Ea7DC1CB68f07B81D6f3",
+      "arcVersion": "0.0.1-rc.39"
+    }
+  ],
+  "StandAloneContracts": [
+    {
+      "name": "ContributionRewardExt",
+      "address": "0x308Ba661BdB8444a1718FB8B0Cf4eFe4e7bBAf64",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "Competition",
+      "address": "0xe4DF017D1Ee7845D45991e55f040A0619188137a",
+      "arcVersion": "0.0.1-rc.39"
+    },
+    {
+      "name": "RepAllocation",
+      "address": "0x4126c936C227Cb10e455be7859A516e1741D27b7",
+      "arcVersion": "0.0.1-rc.39"
+    }
+  ],
+  "arcVersion": "0.0.1-rc.39"
+}
+✔ DAO Migration has Finished Successfully!
+ℹ Finished in 3 minutes and costed 0.25917468ETH
