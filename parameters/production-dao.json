@@ -1,11 +1,11 @@
 {
   "orgName": "BuffiDAO",
-  "tokenName": "BuffiReward",
-  "tokenSymbol": "BFF",
+  "tokenName": "BuffiDAO",
+  "tokenSymbol": "BFD",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{  
-    "voteRegisterParams": 2,
-    "voteRemoveParams": 2
+    "voteRegisterParams": 1,
+    "voteRemoveParams": 1
   }],
   "StandAloneContracts": [
     {
@@ -42,20 +42,6 @@
       "preBoostedVotePeriodLimit": 86400,
       "proposingRepReward": 50,
       "quietEndingPeriod": 57600,
-      "thresholdConst": 2000,
-      "voteOnBehalf": "0x0000000000000000000000000000000000000000",
-      "votersReputationLossRatio": 1,
-      "activationTime": 0
-    },
-    {
-      "boostedVotePeriodLimit": 86400,
-      "daoBountyConst": 10,
-      "minimumDaoBounty": 150,
-      "queuedVotePeriodLimit": 604800,
-      "queuedVoteRequiredPercentage": 50,
-      "preBoostedVotePeriodLimit": 86400,
-      "proposingRepReward": 50,
-      "quietEndingPeriod": 43200,
       "thresholdConst": 2000,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
       "votersReputationLossRatio": 1,
@@ -100,7 +86,7 @@
       "isUniversal": false,
       "params": [
         "GenesisProtocolAddress",
-        { "voteParams": 1 },
+        { "voteParams": 0 },
         { "StandAloneContract": 1 }
       ],
       "permissions": "0x00000000",
