@@ -1,0 +1,100 @@
+{
+  "orgName": "Secret DAO",
+  "tokenName": "Secret DAO Token",
+  "tokenSymbol": "SCTD",
+  "ContributionReward": [{}],
+  "SchemeRegistrar": [{  
+    "voteRegisterParams": 1,
+    "voteRemoveParams": 1
+  }],
+  "StandAloneContracts": [
+    {
+      "name": "ContributionRewardExt",
+      "fromArc": true,
+      "arcVersion": "0.0.1-rc.40"
+    },
+    {
+      "name": "Competition",
+      "fromArc": true,
+      "params": [{ "StandAloneContract": 0 }],
+      "arcVersion": "0.0.1-rc.40"
+    }],
+  "VotingMachinesParams": [
+    {
+      "boostedVotePeriodLimit": 86400,
+      "daoBountyConst": 10,
+      "minimumDaoBounty": 150,
+      "queuedVotePeriodLimit": 604800,
+      "queuedVoteRequiredPercentage": 50,
+      "preBoostedVotePeriodLimit": 86400,
+      "proposingRepReward": 50,
+      "quietEndingPeriod": 57600,
+      "thresholdConst": 2000,
+      "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+      "votersReputationLossRatio": 1,
+      "activationTime": 0
+    },
+    {
+      "boostedVotePeriodLimit": 345600,
+      "daoBountyConst": 10,
+      "minimumDaoBounty": 400,
+      "queuedVotePeriodLimit": 1209600,
+      "queuedVoteRequiredPercentage": 50,
+      "preBoostedVotePeriodLimit": 345600,
+      "proposingRepReward": 100,
+      "quietEndingPeriod": 172800,
+      "thresholdConst": 2000,
+      "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+      "votersReputationLossRatio": 4,
+      "activationTime": 0
+    }
+  ],
+  "schemes": {
+    "ContributionReward": true,
+    "SchemeRegistrar": true
+  },
+  "CustomSchemes": [
+    {
+      "name": "ContributionRewardExt",
+      "schemeName": "ContributionRewardExt",
+      "address": { "StandAloneContract": 0 },
+      "isUniversal": false,
+      "params": [
+        "GenesisProtocolAddress",
+        { "voteParams": 0 },
+        { "StandAloneContract": 1 }
+      ],
+      "permissions": "0x00000000",
+      "alias": "ContributionRewardExt",
+      "fromArc": true,
+      "arcVersion": "0.0.1-rc.40"
+    }
+  ],
+  "useDaoCreator": true,
+  "founders": [
+    {
+      "address": "0x26294446360495630de844039fF8DFEF15674179",
+      "reputation": 1000
+    },
+    {
+      "address": "0xCb5Fba4419ABC4D7C11af0C24BA0F2e555407F5b",
+      "reputation": 1000
+    },
+    {
+      "address": "0x3Eb24C61590E6cD6fC26Cf4fB938316206147859",
+      "reputation": 1000
+    },
+    {
+      "address": "0xDa6A5528FabD9a88b5a17B27Afaa3e95956Ab08d",
+      "reputation": 1000
+    },
+    {
+      "address": "0x3D2f7815a38C4f4444f836a7abFe132A1b4fd12a",
+      "reputation": 1000
+    }
+
+
+
+  ],
+  "arcVersion": "0.0.1-rc.39"
+}
