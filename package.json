@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/daostack/ETHDenver-DAO#readme",
   "dependencies": {
-    "@daostack/migration": "0.0.1-rc.39-v3"
+    "@daostack/migration": "0.0.1-rc.40-v1"
   }
 }

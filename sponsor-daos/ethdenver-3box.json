@@ -1,7 +1,7 @@
 {
-  "orgName": "BuffiDAO",
-  "tokenName": "BuffiDAO",
-  "tokenSymbol": "BFD",
+  "orgName": "3Box",
+  "tokenName": "3Box Token",
+  "tokenSymbol": "BOX",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{  
     "voteRegisterParams": 1,
@@ -18,18 +18,6 @@
       "fromArc": true,
       "params": [{ "StandAloneContract": 0 }],
       "arcVersion": "0.0.1-rc.40"
-    },
-    {
-      "name": "RepAllocation",
-      "fromArc": true,
-      "runFunctions": [
-        { 
-           "functionName": "transferOwnership",
-           "params": [
-              "0xbAAEa72417f4dC3E0f52a1783B0913d0f3516634"
-           ]
-        }
-      ]
     }
   ],
   "VotingMachinesParams": [
@@ -68,18 +56,6 @@
   },
   "CustomSchemes": [
     {
-      "name": "ReputationFromToken",
-      "isUniversal": false,
-      "params": [
-        { "StandAloneContract": 2 },
-        "0x0000000000000000000000000000000000000000",
-        "0x0000000000000000000000000000000000000000"
-      ],
-      "alias": "ReputationFromToken",
-      "fromArc": true,
-      "permissions": "0x00000000"
-    },
-    {
       "name": "ContributionRewardExt",
       "schemeName": "ContributionRewardExt",
       "address": { "StandAloneContract": 0 },
@@ -93,32 +69,29 @@
       "alias": "ContributionRewardExt",
       "fromArc": true,
       "arcVersion": "0.0.1-rc.40"
-    },
-    {
-      "name": "ReputationAdmin",
-      "schemeName": "ReputationAdmin",
-      "isUniversal": false,
-      "params": [0, 1581901200, 0],
-      "runFunctions": [
-        {
-          "functionName": "transferOwnership",
-          "params": [
-            "0xbAAEa72417f4dC3E0f52a1783B0913d0f3516634"
-          ]
-        }
-      ],
-      "permissions": "0x00000000",
-      "alias": "ReputationAdmin",
-      "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
     }
   ],
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x90f8bf6a479f320ead074411a4b0e7944ea8c9c1",
-      "tokens": 0,
-      "reputation": 0
+      "address": "0xa8eE0BABE72cD9A80Ae45dD74Cd3eaE7a82fd5d1",
+      "reputation": 1000
+    },
+    {
+      "address": "0xFF326878D13b33591D286372E67B4AF05cD100bd",
+      "reputation": 1000
+    },
+    {
+      "address": "0x5c44E8982fa3C3239C6E3C5be2cc6663c7C9387E",
+      "reputation": 1000
+    },
+    {
+      "address": "0x9acb0539f2ea0c258ac43620dd03ef01f676a69b",
+      "reputation": 1000
+    },
+    {
+      "address": "0x2f4cE4f714C68A3fC871d1f543FFC24b9b3c2386",
+      "reputation": 1000
     }
   ],
   "arcVersion": "0.0.1-rc.39"

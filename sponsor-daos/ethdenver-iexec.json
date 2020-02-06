@@ -1,7 +1,7 @@
 {
-  "orgName": "BuffiDAO",
-  "tokenName": "BuffiDAO",
-  "tokenSymbol": "BFD",
+  "orgName": "iExec DAO",
+  "tokenName": "iExec DAO Token",
+  "tokenSymbol": "IED",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{  
     "voteRegisterParams": 1,
@@ -18,20 +18,7 @@
       "fromArc": true,
       "params": [{ "StandAloneContract": 0 }],
       "arcVersion": "0.0.1-rc.40"
-    },
-    {
-      "name": "RepAllocation",
-      "fromArc": true,
-      "runFunctions": [
-        { 
-           "functionName": "transferOwnership",
-           "params": [
-              "0xbAAEa72417f4dC3E0f52a1783B0913d0f3516634"
-           ]
-        }
-      ]
-    }
-  ],
+    }],
   "VotingMachinesParams": [
     {
       "boostedVotePeriodLimit": 86400,
@@ -68,18 +55,6 @@
   },
   "CustomSchemes": [
     {
-      "name": "ReputationFromToken",
-      "isUniversal": false,
-      "params": [
-        { "StandAloneContract": 2 },
-        "0x0000000000000000000000000000000000000000",
-        "0x0000000000000000000000000000000000000000"
-      ],
-      "alias": "ReputationFromToken",
-      "fromArc": true,
-      "permissions": "0x00000000"
-    },
-    {
       "name": "ContributionRewardExt",
       "schemeName": "ContributionRewardExt",
       "address": { "StandAloneContract": 0 },
@@ -93,33 +68,16 @@
       "alias": "ContributionRewardExt",
       "fromArc": true,
       "arcVersion": "0.0.1-rc.40"
-    },
-    {
-      "name": "ReputationAdmin",
-      "schemeName": "ReputationAdmin",
-      "isUniversal": false,
-      "params": [0, 1581901200, 0],
-      "runFunctions": [
-        {
-          "functionName": "transferOwnership",
-          "params": [
-            "0xbAAEa72417f4dC3E0f52a1783B0913d0f3516634"
-          ]
-        }
-      ],
-      "permissions": "0x00000000",
-      "alias": "ReputationAdmin",
-      "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
     }
   ],
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x90f8bf6a479f320ead074411a4b0e7944ea8c9c1",
-      "tokens": 0,
-      "reputation": 0
+      "address": "0x73ae1f178627e9336da8c7a9190867eaaf896963",
+      "reputation": 1000
     }
+
+
   ],
   "arcVersion": "0.0.1-rc.39"
 }

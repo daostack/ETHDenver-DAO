@@ -8,13 +8,13 @@
     {
       "name": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.39"
+      "arcVersion": "0.0.1-rc.40"
     },
     {
       "name": "Competition",
       "fromArc": true,
       "params": [{ "StandAloneContract": 0 }],
-      "arcVersion": "0.0.1-rc.39"
+      "arcVersion": "0.0.1-rc.40"
     }
   ],
   "VotingMachinesParams": [
@@ -79,7 +79,7 @@
       "permissions": "0x00000000",
       "alias": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.39"
+      "arcVersion": "0.0.1-rc.40"
     }
   ],
   "useUController": false,
@@ -91,5 +91,6 @@
       "tokens": 0,
       "reputation": 0
     }
-  ]
+  ],
+  "arcVersion": "0.0.1-rc.39"
 }
