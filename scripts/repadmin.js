@@ -47,16 +47,15 @@ console.log("default",web3.eth.defaultAccount);
 var beneficiaries = fs.readFileSync('scripts/beneficiaries.txt').toString().split("\n");
 const ReputationAdmin = require("./ReputationAdmin.json");
 var  reputationAdmin = new web3.eth.Contract(ReputationAdmin.abi, process.env.reputationAdminAddress);
-console.log(reputationAdmin)
 
-var amountArray = new Array(1000);
-
-amountArray.fill(web3.utils.toWei(process.env.amountOfRepToMint, "ether"));
 var startIndex = parseInt(process.env.startIndex);
 
 for (var i= startIndex;i< beneficiaries.length;i=i+100) {
   console.log("send from index", i ,"to",i+100);
-  await reputationAdmin.methods.reputationMint(beneficiaries.slice(i,i+100),amountArray)
+  var beneficiariesArray = beneficiaries.slice(i,i+100);
+  var amountArray = new Array(beneficiariesArray.length);
+  amountArray.fill(web3.utils.toWei(process.env.amountOfRepToMint, "wei"));
+  await reputationAdmin.methods.reputationMint(beneficiariesArray,amountArray)
     .send({
         from: web3.eth.defaultAccount,
         gasLimit: 10000000,
