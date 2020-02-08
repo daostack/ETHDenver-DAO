@@ -51,19 +51,18 @@ var  reputationAdmin = new web3.eth.Contract(ReputationAdmin.abi, process.env.re
 var amountArray = new Array(1000);
 
 amountArray.fill(web3.utils.toWei(process.env.amountOfRepToMint, "ether"));
-console.log(amountArray)
 var startIndex = parseInt(process.env.startIndex);
 
-// for (var i= startIndex;i< beneficiaries.length;i=i+100) {
-//   console.log("send from index", i ,"to",i+100);
-//   await reputationAdmin.methods.reputationMint(beneficiaries.slice(i,i+100),amountArray)
-//     .send({
-//         from: web3.eth.defaultAccount,
-//         gasLimit: 8000000,
-//         gasPrice: 10000000000,
-//       });
-//   console.log("done");
-//  }
+for (var i= startIndex;i< beneficiaries.length;i=i+100) {
+  console.log("send from index", i ,"to",i+100);
+  await reputationAdmin.methods.reputationMint(beneficiaries.slice(i,i+100),amountArray)
+    .send({
+        from: web3.eth.defaultAccount,
+        gasLimit: 8000000,
+        gasPrice: 10000000000,
+      });
+  console.log("done");
+ }
 }
 
 module.exports = {
