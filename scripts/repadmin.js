@@ -59,7 +59,7 @@ for (var i= startIndex;i< beneficiaries.length;i=i+100) {
   await reputationAdmin.methods.reputationMint(beneficiaries.slice(i,i+100),amountArray)
     .send({
         from: web3.eth.defaultAccount,
-        gasLimit: 7900000,
+        gasLimit: 10000000,
         gasPrice: 1000000000,
       });
   console.log("done");
