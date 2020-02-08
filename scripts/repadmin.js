@@ -47,6 +47,7 @@ console.log("default",web3.eth.defaultAccount);
 var beneficiaries = fs.readFileSync('scripts/beneficiaries.txt').toString().split("\n");
 const ReputationAdmin = require("./ReputationAdmin.json");
 var  reputationAdmin = new web3.eth.Contract(ReputationAdmin.abi, process.env.reputationAdminAddress);
+console.log(reputationAdmin)
 
 var amountArray = new Array(1000);
 
@@ -58,12 +59,12 @@ for (var i= startIndex;i< beneficiaries.length;i=i+100) {
   await reputationAdmin.methods.reputationMint(beneficiaries.slice(i,i+100),amountArray)
     .send({
         from: web3.eth.defaultAccount,
-        gasLimit: 8000000,
-        gasPrice: 10000000000,
+        gasLimit: 7900000,
+        gasPrice: 1000000000,
       });
   console.log("done");
  }
-}
+ }
 
 module.exports = {
     start
