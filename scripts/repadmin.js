@@ -57,7 +57,7 @@ for (var i= startIndex;i< beneficiaries.length;i=i+batchSize) {
   }
   var beneficiariesArray = beneficiaries.slice(i,i+batchSize);
   var amountArray = new Array(beneficiariesArray.length);
-  amountArray.fill(web3.utils.toWei(process.env.amountOfRepToMint, "wei"));
+  amountArray.fill(web3.utils.toWei(process.env.amountOfRepToMint, "ether"));
   await reputationAdmin.methods.reputationMint(beneficiariesArray,amountArray)
     .send({
         from: web3.eth.defaultAccount,
