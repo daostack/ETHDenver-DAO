@@ -49,10 +49,13 @@ const ReputationAdmin = require("./ReputationAdmin.json");
 var  reputationAdmin = new web3.eth.Contract(ReputationAdmin.abi, process.env.reputationAdminAddress);
 
 var startIndex = parseInt(process.env.startIndex);
-
-for (var i= startIndex;i< beneficiaries.length;i=i+100) {
-  console.log("send from index", i ,"to",i+100);
-  var beneficiariesArray = beneficiaries.slice(i,i+100);
+var batchSize = 100;
+for (var i= startIndex;i< beneficiaries.length;i=i+batchSize) {
+  console.log("send from index", i ,"to",i+batchSize);
+  if (i+batchSize > beneficiaries.length) {
+      batchSize = beneficiaries.length - i;
+  }
+  var beneficiariesArray = beneficiaries.slice(i,i+batchSize);
   var amountArray = new Array(beneficiariesArray.length);
   amountArray.fill(web3.utils.toWei(process.env.amountOfRepToMint, "wei"));
   await reputationAdmin.methods.reputationMint(beneficiariesArray,amountArray)
