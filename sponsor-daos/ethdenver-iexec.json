@@ -1,24 +1,27 @@
 {
   "orgName": "iExec DAO",
   "tokenName": "iExec DAO Token",
-  "tokenSymbol": "IED",
+  "tokenSymbol": "IEDT",
   "ContributionReward": [{}],
-  "SchemeRegistrar": [{  
-    "voteRegisterParams": 1,
-    "voteRemoveParams": 1
-  }],
+  "SchemeRegistrar": [
+    {
+      "voteRegisterParams": 1,
+      "voteRemoveParams": 1
+    }
+  ],
   "StandAloneContracts": [
     {
       "name": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
+      "arcVersion": "0.0.1-rc.41"
     },
     {
       "name": "Competition",
       "fromArc": true,
       "params": [{ "StandAloneContract": 0 }],
-      "arcVersion": "0.0.1-rc.40"
-    }],
+      "arcVersion": "0.0.1-rc.41"
+    }
+  ],
   "VotingMachinesParams": [
     {
       "boostedVotePeriodLimit": 86400,
@@ -67,17 +70,18 @@
       "permissions": "0x00000000",
       "alias": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
+      "arcVersion": "0.0.1-rc.41"
     }
   ],
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x73ae1f178627e9336da8c7a9190867eaaf896963",
+      "address": "0x7859821024e633c5dc8a4fcf86fc52e7720ce525",
+      "reputation": 1000
+    },
+    {
+      "address": "0x8A30121C018248BDda3148f681b1ac72C44b0049",
       "reputation": 1000
     }
-
-
-  ],
-  "arcVersion": "0.0.1-rc.39"
+  ]
 }
