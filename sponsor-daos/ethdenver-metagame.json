@@ -1,7 +1,7 @@
 {
-  "orgName": "Pepo UX Awards DAO",
-  "tokenName": "UX Awards DAO Token",
-  "tokenSymbol": "UXAD",
+  "orgName": "MetaGame",
+  "tokenName": "Seeds Token",
+  "tokenSymbol": "SEEDS",
   "ContributionReward": [{}],
   "SchemeRegistrar": [
     {
@@ -30,11 +30,11 @@
       "queuedVotePeriodLimit": 604800,
       "queuedVoteRequiredPercentage": 50,
       "preBoostedVotePeriodLimit": 86400,
-      "proposingRepReward": 50,
+      "proposingRepReward": 0,
       "quietEndingPeriod": 57600,
       "thresholdConst": 2000,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
-      "votersReputationLossRatio": 1,
+      "votersReputationLossRatio": 0,
       "activationTime": 0
     },
     {
@@ -44,11 +44,11 @@
       "queuedVotePeriodLimit": 1209600,
       "queuedVoteRequiredPercentage": 50,
       "preBoostedVotePeriodLimit": 345600,
-      "proposingRepReward": 100,
+      "proposingRepReward": 0,
       "quietEndingPeriod": 172800,
       "thresholdConst": 2000,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
-      "votersReputationLossRatio": 4,
+      "votersReputationLossRatio": 0,
       "activationTime": 0
     }
   ],
@@ -76,20 +76,24 @@
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x5B9Eac7c6428895a7E26bA90Be8c9183226d0027",
-      "reputation": 1000
+      "address": "0xB53b0255895c4F9E3a185E484e5B674bCCfbc076",
+      "tokens": 1727,
+      "reputation": 1727
     },
     {
-      "address": "0x2Eac830c237009e1C7c7C98EE084C5a778bbCd8c",
-      "reputation": 1000
+      "address": "0x66b1De0f14a0ce971F7f248415063D44CAF19398",
+      "tokens": 297,
+      "reputation": 297
     },
     {
-      "address": "0x19845e428d8f9Eda9f807C9A1C58Da947454Be45",
-      "reputation": 1000
+      "address": "0x66b1De0f14a0ce971F7f248415063D44CAF19398",
+      "tokens": 366,
+      "reputation": 366
     },
     {
-      "address": "0x9836EEFF319c2F1dB7C072c2F2b65873c07a58D6",
-      "reputation": 1000
+      "address": "0x28f3EB8BB432d522858a9237350D7aaa54c2c557",
+      "tokens": 65,
+      "reputation": 65
     }
   ]
 }

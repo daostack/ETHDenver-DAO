@@ -1,7 +1,7 @@
 {
-  "orgName": "Pepo UX Awards DAO",
-  "tokenName": "UX Awards DAO Token",
-  "tokenSymbol": "UXAD",
+  "orgName": "Fortmatic DAO",
+  "tokenName": "Fortmatic DAO Token",
+  "tokenSymbol": "FRMT",
   "ContributionReward": [{}],
   "SchemeRegistrar": [
     {
@@ -76,19 +76,47 @@
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x5B9Eac7c6428895a7E26bA90Be8c9183226d0027",
+      "address": "0xd87080c972dbf597f4c5e7894b51712c4329a5c1",
       "reputation": 1000
     },
     {
-      "address": "0x2Eac830c237009e1C7c7C98EE084C5a778bbCd8c",
+      "address": "0x8790a61579c2a99b974cfad3df5bf17edfc7f8c9",
       "reputation": 1000
     },
     {
-      "address": "0x19845e428d8f9Eda9f807C9A1C58Da947454Be45",
+      "address": "0x85560c619580e07ea37fa54aeed96ae7dd863f0b",
       "reputation": 1000
     },
     {
-      "address": "0x9836EEFF319c2F1dB7C072c2F2b65873c07a58D6",
+      "address": "0xde35e25736bef40efbdcac6c522781d2ce8c2552",
+      "reputation": 1000
+    },
+    {
+      "address": "0xb831372b56f266044c33e3b52f270cdb1a6fec9b",
+      "reputation": 1000
+    },
+    {
+      "address": "0x9ef190ae70ce60126d1899fe29645ade741eca58",
+      "reputation": 1000
+    },
+    {
+      "address": "0x8c24d26181672f0bb867912b3b9df192a062fdfe",
+      "reputation": 1000
+    },
+    {
+      "address": "0x37cdaa93fb2e385c8aa2b96acee9be684216b9da",
+      "reputation": 1000
+    },
+    {
+      "address": "0x09ce806ed04ee2011a70267a6918ad8d3202ddc1",
+      "reputation": 1000
+    },
+    {
+      "address": "0x0fde494eb1443b2e81955dcd82dd13d6cd93f468",
+      "reputation": 1000
+    },
+    {
+      "address": "0x06f1218ba93aea0a0ce23f5045da2e3f9f3e7bf1",
       "reputation": 1000
     }
   ]

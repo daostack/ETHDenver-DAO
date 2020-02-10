@@ -1,7 +1,7 @@
 {
-  "orgName": "Pepo UX Awards DAO",
-  "tokenName": "UX Awards DAO Token",
-  "tokenSymbol": "UXAD",
+  "orgName": "xDAItestDAO",
+  "tokenName": "Test",
+  "tokenSymbol": "test",
   "ContributionReward": [{}],
   "SchemeRegistrar": [
     {
@@ -76,19 +76,7 @@
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x5B9Eac7c6428895a7E26bA90Be8c9183226d0027",
-      "reputation": 1000
-    },
-    {
-      "address": "0x2Eac830c237009e1C7c7C98EE084C5a778bbCd8c",
-      "reputation": 1000
-    },
-    {
-      "address": "0x19845e428d8f9Eda9f807C9A1C58Da947454Be45",
-      "reputation": 1000
-    },
-    {
-      "address": "0x9836EEFF319c2F1dB7C072c2F2b65873c07a58D6",
+      "address": "0x06044b5359D8dF7886366c22C61c7ecd29BECac7",
       "reputation": 1000
     }
   ]

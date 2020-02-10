@@ -1,7 +1,7 @@
 {
-  "orgName": "Pepo UX Awards DAO",
-  "tokenName": "UX Awards DAO Token",
-  "tokenSymbol": "UXAD",
+  "orgName": "DAOstack DAO",
+  "tokenName": "DAOstack DAO Token",
+  "tokenSymbol": "DSTK",
   "ContributionReward": [{}],
   "SchemeRegistrar": [
     {
@@ -76,19 +76,27 @@
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0x5B9Eac7c6428895a7E26bA90Be8c9183226d0027",
+      "address": "0xa15Ca74e65bf72730811ABF95163E89aD9b9DFF6",
       "reputation": 1000
     },
     {
-      "address": "0x2Eac830c237009e1C7c7C98EE084C5a778bbCd8c",
+      "address": "0xce7298e5ef1ae8af0573edc2ebd03ab0f837e214",
       "reputation": 1000
     },
     {
-      "address": "0x19845e428d8f9Eda9f807C9A1C58Da947454Be45",
+      "address": "0x4171160db0e7e2c75a4973b7523b437c010dd9d4",
       "reputation": 1000
     },
     {
-      "address": "0x9836EEFF319c2F1dB7C072c2F2b65873c07a58D6",
+      "address": "0x0f07d407ac41d6dbb2cf237b0704c0ab5b9b8754",
+      "reputation": 1000
+    },
+    {
+      "address": "0xbaaea72417f4dc3e0f52a1783b0913d0f3516634",
+      "reputation": 1000
+    },
+    {
+      "address": "0x346173fA66f95BFA53d4222C09321279365B8A85",
       "reputation": 1000
     }
   ]

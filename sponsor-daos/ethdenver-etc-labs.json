@@ -3,22 +3,25 @@
   "tokenName": "ETC Labs DAO Token",
   "tokenSymbol": "ETCD",
   "ContributionReward": [{}],
-  "SchemeRegistrar": [{  
-    "voteRegisterParams": 1,
-    "voteRemoveParams": 1
-  }],
+  "SchemeRegistrar": [
+    {
+      "voteRegisterParams": 1,
+      "voteRemoveParams": 1
+    }
+  ],
   "StandAloneContracts": [
     {
       "name": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
+      "arcVersion": "0.0.1-rc.41"
     },
     {
       "name": "Competition",
       "fromArc": true,
       "params": [{ "StandAloneContract": 0 }],
-      "arcVersion": "0.0.1-rc.40"
-    }],
+      "arcVersion": "0.0.1-rc.41"
+    }
+  ],
   "VotingMachinesParams": [
     {
       "boostedVotePeriodLimit": 86400,
@@ -67,17 +70,22 @@
       "permissions": "0x00000000",
       "alias": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
+      "arcVersion": "0.0.1-rc.41"
     }
   ],
   "useDaoCreator": true,
   "founders": [
     {
-      "address": "0xe89C2545e4e05A79D21351CdEeDa4651ca48DeBc",
+      "address": "0xa59b691Cb8D0D67956A8Ea117ee49751844C7139",
+      "reputation": 1000
+    },
+    {
+      "address": "0x1AAA9e87164751F1e41b3f26Bfa2e6Ee1450E05C",
+      "reputation": 1000
+    },
+    {
+      "address": "0xd9789C4e0DC8b7A3741Dbc5E8D8ADA838163Dc45",
       "reputation": 1000
     }
-
-
-  ],
-  "arcVersion": "0.0.1-rc.39"
+  ]
 }
