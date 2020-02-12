@@ -1,0 +1,90 @@
+{
+    "orgName": "Infura Gateway DAO",
+    "tokenName": "Infura Gateway DAO Token",
+    "tokenSymbol": "IGDT",
+    "ContributionReward": [{}],
+    "SchemeRegistrar": [{  
+      "voteRegisterParams": 1,
+      "voteRemoveParams": 1
+    }],
+    "StandAloneContracts": [
+      {
+        "name": "ContributionRewardExt",
+        "fromArc": true,
+        "arcVersion": "0.0.1-rc.41"
+      },
+      {
+        "name": "Competition",
+        "fromArc": true,
+        "params": [{ "StandAloneContract": 0 }],
+        "arcVersion": "0.0.1-rc.41"
+      }
+    ],
+    "VotingMachinesParams": [
+      {
+        "boostedVotePeriodLimit": 86400,
+        "daoBountyConst": 10,
+        "minimumDaoBounty": 150,
+        "queuedVotePeriodLimit": 604800,
+        "queuedVoteRequiredPercentage": 50,
+        "preBoostedVotePeriodLimit": 86400,
+        "proposingRepReward": 50,
+        "quietEndingPeriod": 57600,
+        "thresholdConst": 2000,
+        "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+        "votersReputationLossRatio": 1,
+        "activationTime": 0
+      },
+      {
+        "boostedVotePeriodLimit": 345600,
+        "daoBountyConst": 10,
+        "minimumDaoBounty": 400,
+        "queuedVotePeriodLimit": 1209600,
+        "queuedVoteRequiredPercentage": 50,
+        "preBoostedVotePeriodLimit": 345600,
+        "proposingRepReward": 100,
+        "quietEndingPeriod": 172800,
+        "thresholdConst": 2000,
+        "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+        "votersReputationLossRatio": 4,
+        "activationTime": 0
+      }
+    ],
+    "schemes": {
+      "ContributionReward": true,
+      "SchemeRegistrar": true
+    },
+    "CustomSchemes": [
+      {
+        "name": "ContributionRewardExt",
+        "schemeName": "ContributionRewardExt",
+        "address": { "StandAloneContract": 0 },
+        "isUniversal": false,
+        "params": [
+          "GenesisProtocolAddress",
+          { "voteParams": 0 },
+          { "StandAloneContract": 1 }
+        ],
+        "permissions": "0x00000000",
+        "alias": "ContributionRewardExt",
+        "fromArc": true,
+        "arcVersion": "0.0.1-rc.41"
+      }
+    ],
+    "useDaoCreator": true,
+    "founders": [
+      {
+        "address": "0x8FF009b245BC2949cD7e392982713f25d7E69e0b",
+        "reputation": 1000
+      },
+  {
+        "address": "0x45C9a201e2937608905fEF17De9A67f25F9f98E0",
+        "reputation": 1000
+      },
+  {
+        "address": "0xEe1F8d47159081ecCE66fa3adb00fb3E0f73Ce93",
+        "reputation": 1000
+      }
+                
+    ]
+  }
