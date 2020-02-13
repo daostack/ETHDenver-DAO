@@ -1,7 +1,7 @@
 {
-  "orgName": "Skale DAO",
-  "tokenName": "Skale DAO Token",
-  "tokenSymbol": "SKD",
+  "orgName": "SKALE DAO",
+  "tokenName": "SKALE DAO Token",
+  "tokenSymbol": "SKDT",
   "ContributionReward": [{}],
   "SchemeRegistrar": [{  
     "voteRegisterParams": 1,
@@ -11,14 +11,15 @@
     {
       "name": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
+      "arcVersion": "0.0.1-rc.41"
     },
     {
       "name": "Competition",
       "fromArc": true,
       "params": [{ "StandAloneContract": 0 }],
-      "arcVersion": "0.0.1-rc.40"
-    }],
+      "arcVersion": "0.0.1-rc.41"
+    }
+  ],
   "VotingMachinesParams": [
     {
       "boostedVotePeriodLimit": 86400,
@@ -67,7 +68,7 @@
       "permissions": "0x00000000",
       "alias": "ContributionRewardExt",
       "fromArc": true,
-      "arcVersion": "0.0.1-rc.40"
+      "arcVersion": "0.0.1-rc.41"
     }
   ],
   "useDaoCreator": true,
@@ -75,10 +76,6 @@
     {
       "address": "0x8E50404daffD5730b7fD5B8aF711F9c8a991e440",
       "reputation": 1000
-    }
-
-
-
-  ],
-  "arcVersion": "0.0.1-rc.39"
+    } 
+  ]
 }
