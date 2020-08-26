@@ -44,7 +44,7 @@
     }
   ],
   "schemes": {
-    "ContributionReward": true,
+    "ContributionReward": false,
     "SchemeRegistrar": true,
     "GlobalConstraintRegistrar": false,
     "UpgradeScheme": false
